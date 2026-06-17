@@ -4,13 +4,18 @@ import { useState, useRef, useEffect, useCallback } from "react";
 
 interface SearchBarProps {
   onSearch: (query: string, lat: number, lng: number) => void;
+  initialQuery?: string;
 }
 
-export function SearchBar({ onSearch }: SearchBarProps) {
-  const [query, setQuery] = useState("");
+export function SearchBar({ onSearch, initialQuery }: SearchBarProps) {
+  const [query, setQuery] = useState(initialQuery || "");
   const [searching, setSearching] = useState(false);
   const [locating, setLocating] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (initialQuery && initialQuery !== query) setQuery(initialQuery);
+  }, [initialQuery]);
 
   useEffect(() => {
     inputRef.current?.focus();

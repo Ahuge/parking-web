@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { ParkingApp } from "@/components/parking-app";
 import data from "@/data/parking-data.json";
 
@@ -10,5 +11,9 @@ interface ParkingData {
 
 export default function Home() {
   const { lots, rules } = data as unknown as ParkingData;
-  return <ParkingApp lots={lots} rules={rules} />;
+  return (
+    <Suspense fallback={<div className="flex h-dvh items-center justify-center text-zinc-400 text-sm">Loading...</div>}>
+      <ParkingApp lots={lots} rules={rules} />
+    </Suspense>
+  );
 }

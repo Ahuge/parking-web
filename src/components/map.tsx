@@ -28,6 +28,21 @@ const FALLBACK_STYLE: maplibregl.StyleSpecification = {
   layers: [{ id: "osm", type: "raster", source: "osm" }],
 };
 
+const OPERATOR_COLORS: Record<string, { match: string; selected: string }> = {
+  indigo: { match: "#3b82f6", selected: "#2563eb" },
+  easypark: { match: "#10b981", selected: "#059669" },
+  impark: { match: "#f59e0b", selected: "#d97706" },
+  private: { match: "#94a3b8", selected: "#64748b" },
+};
+
+function bookingUrl(lot: ParkingLot): string | null {
+  if (lot.operator === "impark") {
+    const slug = lot.id.replace("impark-", "");
+    return `https://imparknow.com/ca/product/${slug}/`;
+  }
+  return null;
+}
+
 function pinHtml(color: string, text: string, size: number): string {
   return `<div class="parking-pin" style="width:${size}px;height:${size}px;background:${color};font-size:${Math.round(size * 0.4)}px;line-height:${size}px">${text}</div>`;
 }
@@ -84,6 +99,7 @@ export function MapView({ lots, results, selectedLotId, onSelectLot, onMapClick,
       const isMatch = !!result;
       const isSelected = lot.id === selectedLotId;
       const isClosed = !isMatch;
+      const colors = OPERATOR_COLORS[lot.operator] || OPERATOR_COLORS.private;
 
       if (isClosed && !showClosed) continue;
 
@@ -91,9 +107,9 @@ export function MapView({ lots, results, selectedLotId, onSelectLot, onMapClick,
       el.className = "parking-marker cursor-pointer";
 
       if (isSelected) {
-        el.innerHTML = pinHtml("#2563eb", `$${Math.round(result!.price)}`, 36);
+        el.innerHTML = pinHtml(colors.selected, `$${Math.round(result!.price)}`, 36);
       } else if (isMatch) {
-        el.innerHTML = pinHtml("#3b82f6", `$${Math.round(result.price)}`, 30);
+        el.innerHTML = pinHtml(colors.match, `$${Math.round(result.price)}`, 30);
       } else {
         el.innerHTML = pinHtml("#94a3b8", "P", 22);
       }
@@ -111,6 +127,7 @@ export function MapView({ lots, results, selectedLotId, onSelectLot, onMapClick,
     }
 
     if (selectedLot && selectedResult) {
+      const url = bookingUrl(selectedLot);
       const html = `
         <div class="font-sans text-sm leading-snug max-w-56">
           <div class="flex items-center gap-1.5 mb-1">
@@ -124,6 +141,7 @@ export function MapView({ lots, results, selectedLotId, onSelectLot, onMapClick,
             <span class="text-zinc-400">${selectedResult.distanceKm < 1 ? `${Math.round(selectedResult.distanceKm * 1000)}m` : `${selectedResult.distanceKm.toFixed(1)}km`}</span>
           </div>
           ${selectedLot.features.ev || selectedLot.features.covered ? `<div class="flex gap-2 mt-1 text-[10px] font-medium">${selectedLot.features.ev ? '<span class="text-green-600">⚡ EV</span>' : ''}${selectedLot.features.covered ? '<span class="text-blue-600">Covered</span>' : ''}</div>` : ''}
+          ${url ? `<a href="${url}" target="_blank" rel="noopener noreferrer" class="mt-2 inline-flex items-center gap-1 text-xs font-medium text-blue-600 hover:text-blue-700">Book now ↗</a>` : ''}
         </div>
       `;
 
@@ -136,14 +154,24 @@ export function MapView({ lots, results, selectedLotId, onSelectLot, onMapClick,
 
   useEffect(() => {
     const map = mapRef.current;
-    if (!map || results.length === 0) return;
+    if (!map) return;
 
-    const bounds = new maplibregl.LngLatBounds();
-    for (const r of results) {
-      bounds.extend([r.lot.coordinates.lng, r.lot.coordinates.lat]);
+    if (selectedLotId) {
+      const lot = lots.find((l) => l.id === selectedLotId);
+      if (lot) {
+        map.flyTo({ center: [lot.coordinates.lng, lot.coordinates.lat], zoom: 16, duration: 800 });
+        return;
+      }
     }
-    map.fitBounds(bounds, { padding: 80, maxZoom: 15, duration: 800 });
-  }, [results]);
+
+    if (results.length > 0) {
+      const bounds = new maplibregl.LngLatBounds();
+      for (const r of results) {
+        bounds.extend([r.lot.coordinates.lng, r.lot.coordinates.lat]);
+      }
+      map.fitBounds(bounds, { padding: 80, maxZoom: 15, duration: 800 });
+    }
+  }, [results, selectedLotId, lots]);
 
   return (
     <>

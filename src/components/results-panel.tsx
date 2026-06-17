@@ -1,6 +1,14 @@
 "use client";
 
-import type { SearchResult, SortMode } from "@/lib/schemas";
+import type { SearchResult, SortMode, ParkingLot } from "@/lib/schemas";
+
+function bookingUrl(lot: ParkingLot): string | null {
+  if (lot.operator === "impark") {
+    const slug = lot.id.replace("impark-", "");
+    return `https://imparknow.com/ca/product/${slug}/`;
+  }
+  return null;
+}
 
 interface ResultsPanelProps {
   results: SearchResult[];
@@ -88,6 +96,11 @@ export function ResultsPanel({ results, sortMode, onSortChange, selectedLotId, o
                         {r.lot.features.ev && <span className="rounded bg-green-50 px-1 py-0.5 text-[10px] font-medium text-green-600">EV</span>}
                         {r.lot.features.covered && <span className="rounded bg-blue-50 px-1 py-0.5 text-[10px] font-medium text-blue-600">Covered</span>}
                       </div>
+                      {isSelected && bookingUrl(r.lot) && (
+                        <a href={bookingUrl(r.lot)!} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex items-center gap-1 text-xs font-medium text-blue-600 hover:text-blue-700">
+                          Book now ↗
+                        </a>
+                      )}
                     </div>
                     <div className="flex flex-col items-end gap-0.5">
                       <span className="text-sm font-bold text-zinc-900">${r.price.toFixed(2)}</span>
