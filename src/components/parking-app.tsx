@@ -69,7 +69,7 @@ export function ParkingApp({ lots, rules }: ParkingAppProps) {
     if (s === "cheapest" || s === "closest" || s === "best-value") return s;
     return "best-value";
   });
-  const [filters, setFilters] = useState<Filters>({});
+  const [filters, setFilters] = useState<Filters>({ maxWalkingMinutes: 20 });
   const [selectedLotId, setSelectedLotId] = useState<string | null>(() => searchParams.get("lot") || null);
   const [showClosed, setShowClosed] = useState(false);
 
