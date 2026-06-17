@@ -17,6 +17,10 @@ Next.js 16 static export for parking price comparison. See sibling repo `parking
 - Custom image loader required for static export (`src/lib/image-loader.ts`)
 - `SearchResult.id` does not exist — access lot ID via `result.lot.id`
 
+## Conventions
+- **Commit discipline**: Every logical change gets its own commit. No staging unrelated files. Commits are frequent and atomic — each one compiles, passes tests, and represents a single coherent change. Squash/WIP commits are forbidden.
+- **No backend, no database, no auth**: Static export only.
+
 ## Source structure
 ```
 src/
