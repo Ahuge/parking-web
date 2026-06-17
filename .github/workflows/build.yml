@@ -48,13 +48,11 @@ jobs:
           path: out
 
       - name: Upload Pages artifact
-        if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
           path: out
 
   deploy:
-    if: github.ref == 'refs/heads/develop'
     needs: build
     runs-on: ubuntu-latest
     environment:
