@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/fetch-data.mjs && next dev",
     "prebuild": "node scripts/fetch-data.mjs",
     "build": "next build",
     "start": "next start",

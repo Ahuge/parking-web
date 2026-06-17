@@ -2,8 +2,8 @@
 // Falls back to the local copy if fetch fails (dev workflow).
 // Usage: node scripts/fetch-data.mjs
 
-const DATA_REPO = "anomalyco/vancouver-parking-data";
-const BRANCH = "main";
+const DATA_REPO = "Ahuge/parking-data";
+const BRANCH = "develop";
 const DATA_PATH = new URL("../src/data/parking-data.json", import.meta.url);
 const LOCAL_FALLBACK = new URL("../../parking-data/data/parking-data.json", import.meta.url);
 
