@@ -19,6 +19,7 @@ Next.js 16 static export for parking price comparison. See sibling repo `parking
 
 ## Conventions
 - **Commit discipline**: Every logical change gets its own commit. No staging unrelated files. Commits are frequent and atomic — each one compiles, passes tests, and represents a single coherent change. Squash/WIP commits are forbidden.
+- **Test coverage**: All code paths should be tested. Every change must validate existing tests still pass and add new tests for new functionality. No PR without passing tests.
 - **No backend, no database, no auth**: Static export only.
 
 ## Source structure

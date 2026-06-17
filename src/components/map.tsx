@@ -9,6 +9,7 @@ interface MapViewProps {
   results: SearchResult[];
   selectedLotId: string | null;
   onSelectLot: (id: string | null) => void;
+  onMapClick: (lat: number, lng: number) => void;
   showClosed: boolean;
 }
 
@@ -31,7 +32,7 @@ function pinHtml(color: string, text: string, size: number): string {
   return `<div class="parking-pin" style="width:${size}px;height:${size}px;background:${color};font-size:${Math.round(size * 0.4)}px;line-height:${size}px">${text}</div>`;
 }
 
-export function MapView({ lots, results, selectedLotId, onSelectLot, showClosed }: MapViewProps) {
+export function MapView({ lots, results, selectedLotId, onSelectLot, onMapClick, showClosed }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const markersRef = useRef<maplibregl.Marker[]>([]);
@@ -50,13 +51,20 @@ export function MapView({ lots, results, selectedLotId, onSelectLot, showClosed 
     });
 
     map.addControl(new maplibregl.NavigationControl(), "top-right");
+
+    map.getCanvas().style.cursor = "crosshair";
+
+    map.on("click", (e) => {
+      onMapClick(e.lngLat.lat, e.lngLat.lng);
+    });
+
     mapRef.current = map;
 
     return () => {
       map.remove();
       mapRef.current = null;
     };
-  }, []);
+  }, [onMapClick]);
 
   useEffect(() => {
     const map = mapRef.current;

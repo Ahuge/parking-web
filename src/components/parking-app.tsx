@@ -54,6 +54,20 @@ export function ParkingApp({ lots, rules }: ParkingAppProps) {
     setSelectedLotId(null);
   }, []);
 
+  const handleMapClick = useCallback(async (lat: number, lng: number) => {
+    setCoordinates({ lat, lng });
+    setSelectedLotId(null);
+    try {
+      const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&countrycodes=ca&zoom=16`;
+      const res = await fetch(url, { headers: { "User-Agent": "vancouver-parking/1.0" } });
+      const data = await res.json() as { display_name?: string };
+      const name = data?.display_name || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
+      setDestination(name);
+    } catch {
+      setDestination(`${lat.toFixed(4)}, ${lng.toFixed(4)}`);
+    }
+  }, []);
+
   const handleDurationChange = useCallback((hours: number) => {
     const newDeparture = new Date(arrival.getTime() + hours * 60 * 60 * 1000);
     setDeparture(newDeparture);
@@ -107,6 +121,7 @@ export function ParkingApp({ lots, rules }: ParkingAppProps) {
           results={results}
           selectedLotId={selectedLotId}
           onSelectLot={setSelectedLotId}
+          onMapClick={handleMapClick}
           showClosed={showClosed}
         />
       </div>
