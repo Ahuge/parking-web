@@ -1,0 +1,1477 @@
+{
+  "lots": [
+    {
+      "id": "indigo-99911493",
+      "operator": "indigo",
+      "name": "V250 - River Park Place 2",
+      "address": "5440 Hollybridge Way, Richmond, British Columbia, V7C 0C8",
+      "coordinates": {
+        "lat": 49.174229,
+        "lng": -123.147652
+      },
+      "features": {
+        "ev": true,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911351",
+      "operator": "indigo",
+      "name": "Richmond, Lot 221 - Richmond Courthouse",
+      "address": "7577 Elmbridge Way, Richmond, British Columbia, V6X 1B8",
+      "coordinates": {
+        "lat": 49.172279,
+        "lng": -123.141373
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911360",
+      "operator": "indigo",
+      "name": "Richmond, Lot 230 - Tempo",
+      "address": "7688 Alderbridge Way, Richmond, British Columbia, V6X 0P7",
+      "coordinates": {
+        "lat": 49.174519,
+        "lng": -123.142761
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911806",
+      "operator": "indigo",
+      "name": "V306 - London Plaza",
+      "address": "350-5951 Number 3 Road, Richmond, British Columbia, V6X 3Y6",
+      "coordinates": {
+        "lat": 49.1703052,
+        "lng": -123.1377798
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911575",
+      "operator": "indigo",
+      "name": "Richmond, Lot 265 - 2 River Green",
+      "address": "6699 River Road, Richmond, British Columbia, V7C 0E6",
+      "coordinates": {
+        "lat": 49.175491,
+        "lng": -123.147034
+      },
+      "features": {
+        "ev": true,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911699",
+      "operator": "indigo",
+      "name": "Lot 289 - Gordon Avenue Apartments",
+      "address": "1373 West 73rd Avenue, Vancouver, British Columbia, V6P 3E9",
+      "coordinates": {
+        "lat": 49.2052,
+        "lng": -123.137337
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911362",
+      "operator": "indigo",
+      "name": "Richmond, Lot 239 - The Perla",
+      "address": "8188 Saba Road, Richmond, British Columbia, V6Y 4H1",
+      "coordinates": {
+        "lat": 49.16856,
+        "lng": -123.134331
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911936",
+      "operator": "indigo",
+      "name": "V338 - Da Vinci",
+      "address": "8555 Capstan Way, Richmond, British Columbia, V6X 0W1",
+      "coordinates": {
+        "lat": 49.1883637,
+        "lng": -123.1305407
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911424",
+      "operator": "indigo",
+      "name": "Richmond, Lot 248 - Westin Wall Centre",
+      "address": "3099 Corvette Way, Richmond, British Columbia, V6X 4K3",
+      "coordinates": {
+        "lat": 49.190479,
+        "lng": -123.133568
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911199",
+      "operator": "indigo",
+      "name": "Richmond, Lot 058 - Foody World",
+      "address": "3000 Sexsmith Road, Richmond, British Columbia, V6X 1S1",
+      "coordinates": {
+        "lat": 49.19149,
+        "lng": -123.126938
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911194",
+      "operator": "indigo",
+      "name": "Lot 123 - Columbia Industrial Building",
+      "address": "286 Southwest Marine Drive, Vancouver, British Columbia, V5X 2R4",
+      "coordinates": {
+        "lat": 49.210812,
+        "lng": -123.111923
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911338",
+      "operator": "indigo",
+      "name": "Lot 183 - 210 - 230 SW Marine Drive",
+      "address": "230 Southwest Marine Drive, Vancouver, British Columbia, V5X 2R4",
+      "coordinates": {
+        "lat": 49.211449,
+        "lng": -123.111366
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911650",
+      "operator": "indigo",
+      "name": "Richmond, Lot 251 - 7431 Nelson Road",
+      "address": "7431 Nelson Road, Richmond, British Columbia, V6W 1G3",
+      "coordinates": {
+        "lat": 49.158401,
+        "lng": -123.013847
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911060",
+      "operator": "indigo",
+      "name": "V025 - Royal City Centre",
+      "address": "610 6th Street, New Westminster, British Columbia, V3L 5V1",
+      "coordinates": {
+        "lat": 49.21262,
+        "lng": -122.922157
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911235",
+      "operator": "indigo",
+      "name": "New Westminster, Lot 173 - Carnarvon Towers",
+      "address": "720 Carnarvon Street, New Westminster, British Columbia, V3M 1E9",
+      "coordinates": {
+        "lat": 49.202518,
+        "lng": -122.910797
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911231",
+      "operator": "indigo",
+      "name": "New Westminster, Lot 186 - BC Law Courts",
+      "address": "651 Carnarvon Street, New Westminster, British Columbia, V3M 1C9",
+      "coordinates": {
+        "lat": 49.203251,
+        "lng": -122.910721
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911200",
+      "operator": "indigo",
+      "name": "Lot 133 - 3535 West 41st",
+      "address": "3535 West 41st Avenue, Vancouver, British Columbia, V6N 3B8",
+      "coordinates": {
+        "lat": 49.23502,
+        "lng": -123.183144
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911344",
+      "operator": "indigo",
+      "name": "Lot 212 - Shannon Building",
+      "address": "1515 West 57th Avenue, Vancouver, British Columbia, V6P 0C8",
+      "coordinates": {
+        "lat": 49.2197,
+        "lng": -123.141037
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911168",
+      "operator": "indigo",
+      "name": "Lot 029 - Tribeca",
+      "address": "2111 West 11th Avenue, Vancouver, British Columbia, V6K",
+      "coordinates": {
+        "lat": 49.26239,
+        "lng": -123.153412
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911193",
+      "operator": "indigo",
+      "name": "Lot 121 - 3077 Granville Street",
+      "address": "3077 Granville Street, Vancouver, British Columbia, V6H 3J9",
+      "coordinates": {
+        "lat": 49.258259,
+        "lng": -123.139168
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911688",
+      "operator": "indigo",
+      "name": "Lot 284 - South Granville",
+      "address": "1355 West 14th Avenue, Vancouver, British Columbia, V6H 1R2",
+      "coordinates": {
+        "lat": 49.259079,
+        "lng": -123.135269
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911051",
+      "operator": "indigo",
+      "name": "Lot 119 - Shoppers Drug Mart",
+      "address": "2888 Granville Street, Vancouver, British Columbia, V6H 1P1",
+      "coordinates": {
+        "lat": 49.26009,
+        "lng": -123.1381
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911138",
+      "operator": "indigo",
+      "name": "V004 - Hathaway Apartments",
+      "address": "1445 West 14th Avenue, Vancouver, British Columbia, V6H 1R5",
+      "coordinates": {
+        "lat": 49.260059,
+        "lng": -123.137199
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911106",
+      "operator": "indigo",
+      "name": "Lot 067 - Bellevue (Westside)",
+      "address": "4639 West 10th Avenue, Vancouver, British Columbia, V6R 2J3",
+      "coordinates": {
+        "lat": 49.264042,
+        "lng": -123.21331
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911512",
+      "operator": "indigo",
+      "name": "V252 - 3080 - 2090 W Broadway",
+      "address": "3090 West Broadway, Vancouver, British Columbia, V6K 2G9",
+      "coordinates": {
+        "lat": 49.264019,
+        "lng": -123.173553
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911365",
+      "operator": "indigo",
+      "name": "V242 - The Grace",
+      "address": "2468 Balaclava Street, Vancouver, British Columbia, V6K 0G8",
+      "coordinates": {
+        "lat": 49.264591,
+        "lng": -123.173592
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911144",
+      "operator": "indigo",
+      "name": "V083 - The Robert",
+      "address": "2525 Carnarvon Street, Vancouver, British Columbia, V6K 2K7",
+      "coordinates": {
+        "lat": 49.263779,
+        "lng": -123.172287
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911103",
+      "operator": "indigo",
+      "name": "Lot 063 - Seaside Plaza",
+      "address": "2324 West 1st Avenue, Vancouver, British Columbia, V6K 1G3",
+      "coordinates": {
+        "lat": 49.27076,
+        "lng": -123.157967
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911345",
+      "operator": "indigo",
+      "name": "Lot 213 - Yorkshire Building",
+      "address": "2336 York Avenue, Vancouver, British Columbia, V6K 1C7",
+      "coordinates": {
+        "lat": 49.271561,
+        "lng": -123.158401
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    },
+    {
+      "id": "indigo-99911170",
+      "operator": "indigo",
+      "name": "V032 - Marks Work Wearhouse",
+      "address": "1885 West 4th Avenue, Vancouver, British Columbia, V6J 1M4",
+      "coordinates": {
+        "lat": 49.26836,
+        "lng": -123.147423
+      },
+      "features": {
+        "ev": false,
+        "covered": false
+      },
+      "hours": {
+        "sun": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "mon": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "06:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      },
+      "metadata": {
+        "source": "indigo",
+        "confidence": 0.7,
+        "lastUpdated": "2026-06-17T00:01:39.703Z"
+      }
+    }
+  ],
+  "rules": [],
+  "generatedAt": "2026-06-17T00:01:39.703Z",
+  "schema": "v1"
+}
